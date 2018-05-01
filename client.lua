@@ -11,7 +11,7 @@ end)
 
 -- Öppnar/stänger ögonbindel
 RegisterNetEvent('jsfour-blindfold')
-AddEventHandler('jsfour-blindfold', function( hasItem, source )
+AddEventHandler('jsfour-blindfold', function( hasItem, src )
 	if not open and hasItem then
 		TriggerEvent('skinchanger:getSkin', function(skin)
 			local clothesSkin = {
@@ -34,8 +34,8 @@ AddEventHandler('jsfour-blindfold', function( hasItem, source )
 		SendNUIMessage({
 			action = "close"
 		})
-		TriggerServerEvent('jsfour-blindfold:giveItem', source)
+		TriggerServerEvent('jsfour-blindfold:giveItem', src)
 	else
-		TriggerServerEvent('jsfour-blindfold:notis', source)
+		TriggerServerEvent('jsfour-blindfold:notis', src)
 	end
 end)
