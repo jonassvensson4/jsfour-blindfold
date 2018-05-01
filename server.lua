@@ -13,7 +13,7 @@ end)
 -- Notis skickas om spelaren inte har en ögonbindel
 RegisterServerEvent('jsfour-blindfold:notis')
 AddEventHandler('jsfour-blindfold:notis', function( src )
-  ESX.ShowNotification('Du har ingen ögonbindel på dig..', src)
+  TriggerClientEvent('esx:showNotification', src, 'Du har ingen ögonbindel på dig..')
 end)
 
 -- Ger spelaren en ögonbindel
