@@ -19,11 +19,9 @@ if data.current.value == 'blindfold' then
 	local player, distance = ESX.Game.GetClosestPlayer()
 
 	if distance ~= -1 and distance <= 3.0 then
-	   ESX.TriggerServerCallback('jsfour-blindfold:itemCheck', function( hasItem )
-	      TriggerServerEvent('jsfour-blindfold', GetPlayerServerId(player), hasItem)
-	   end)
+	   TriggerServerEvent('jsfour-blindfold', player)
 	else
-	   ESX.ShowNotification('Ingen i närheten')
+	   ESX.ShowNotification('No player nearby')
 	end
 end
 ```
