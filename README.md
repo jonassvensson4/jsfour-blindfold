@@ -11,7 +11,7 @@ Please don't sell or reupload this resource
 
 ### Screenshot
 ![screenshot](https://i.gyazo.com/thumb/1200/ea01b13e36b33c3e38a9adceb9e88708-png.jpg)
-![screenshot](https://i.gyazo.com/thumb/1200/622e916016a518ab3e1825fc1098b70e-png.jpg)
+<img src="https://i.gyazo.com/thumb/1000/4e8a73111c477402cd36c9961710afa6-png.jpg" width="50%">
 
 ### Example
 ```
