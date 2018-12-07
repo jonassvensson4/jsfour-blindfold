@@ -1,6 +1,4 @@
 # jsfour-blindfold
-CURRENTLY UPDATING THIS SCRIPT
-
 This script lets you use a blindfold on the nearest player.
 
 ### LICENSE
